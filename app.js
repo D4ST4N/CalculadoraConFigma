@@ -8,6 +8,8 @@ function calculadora(comando,a,b){
 switch (comando.toLowerCase()) {
     case "multiplicar":
         return multiplicar(a,b)
+    case "sumar":
+        return suma(a,b)
     
     default:
         break;
